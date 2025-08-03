@@ -60,13 +60,3 @@ class FfcrmWebookhookReadAi::MeetingEndpoint < FfcrmEndpoint::Endpoint
     )
   end
 end
-
-
-
-
-  def verify_ip
-    
-
-    head :unauthorized
-  end
-end
