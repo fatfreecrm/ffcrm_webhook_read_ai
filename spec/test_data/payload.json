@@ -1,0 +1,95 @@
+{
+  "session_id": "SESSIONID",
+  "trigger": "meeting_end",
+  "title": "Meeting Title",
+  "start_time": "2023-01-01T00:00:00Z",
+  "end_time": "2023-01-01T01:00:00Z",
+  "participants": [
+    {
+      "name": "Participant One",
+      "email": "participantOne@example.com"
+    },
+    {
+      "name": "Participant Two",
+      "email": "participantTwo@example.com"
+    }
+  ],
+  "owner": {
+    "name": "Participant One",
+    "email": "participantOne@example.com"
+  },
+  "summary": "Meeting summary goes here...",
+  "action_items": [
+    {
+      "text": "Action item one"
+    },
+    {
+      "text": "Action item two"
+    }
+  ],
+  "key_questions": [
+    {
+      "text": "Key question one?"
+    },
+    {
+      "text": "Key question two?"
+    }
+  ],
+  "topics": [
+    {
+      "text": "Topic one"
+    },
+    {
+      "text": "Topic two"
+    }
+  ],
+  "report_url": "https://app.read.ai/analytics/meetings/SESSIONID",
+  "chapter_summaries": [
+    {
+      "title": "Chapter one",
+      "description": "First chapter description goes here...",
+      "topics": [
+        {
+          "text": "Topic one"
+        }
+      ]
+    },
+    {
+      "title": "Chapter two",
+      "description": "Second chapter description goes here...",
+      "topics": [
+        {
+          "text": "Topic two"
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "speakers": [
+      {
+        "name": "Speaker 1"
+      },
+      {
+        "name": "Speaker 2"
+      },
+    ],
+    "speaker_blocks": [
+      {
+        "start_time": "1719514000000",
+        "end_time": "1719514001000",
+        "speaker": {
+          "name": "Speaker 1"
+        },
+        "words": "Good morning everyone!"
+      },
+      {
+        "start_time": "1719514002000",
+        "end_time": "1719514003000",
+        "speaker": {
+          "name": "Speaker 2"
+        },
+        "words": "Hi!"
+      }
+    ]
+  }
+}
