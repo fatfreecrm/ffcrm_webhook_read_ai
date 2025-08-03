@@ -3,6 +3,9 @@ require 'ffcrm_endpoint'
 
 class FfcrmWebookhookReadAi::MeetingEndpoint < FfcrmEndpoint::Endpoint
 
+  #
+  # https://support.read.ai/hc/en-us/articles/16352415827219-Getting-Started-with-Webhooks
+  #
   def process
     payload = JSON.parse(request.body.read)
     owner_email = payload.dig("owner", "email")
