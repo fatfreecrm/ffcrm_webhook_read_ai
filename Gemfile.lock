@@ -407,7 +407,6 @@ DEPENDENCIES
   observer
   ransack_ui
   rubocop
-  sprockets (~> 4.0)
 
 BUNDLED WITH
    2.6.2

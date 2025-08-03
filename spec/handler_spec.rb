@@ -3,6 +3,7 @@
 require 'rspec'
 
 describe FfcrmWebookhookReadAi::MeetingEndpoint do
+  let(:payload) { JSON.load('./spec/test_data/payload.json') }
   describe '#process' do
     context 'authenticated' do
       it 'matches a user'
