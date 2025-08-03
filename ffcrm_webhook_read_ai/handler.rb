@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 require 'ffcrm_endpoint'
 
-class FfcrmWebookhookReadAi::MeetingEndpoint < FfcrmEndpoint::Endpoint
+class ReadAiMeetingEndpoint < FfcrmEndpoint::Endpoint
 
   #
   # https://support.read.ai/hc/en-us/articles/16352415827219-Getting-Started-with-Webhooks
