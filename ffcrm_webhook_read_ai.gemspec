@@ -9,7 +9,8 @@ Gem::Specification.new do |gem|
   gem.description = 'An open source, Ruby on Rails customer relationship management platform'
   gem.homepage = 'http://fatfreecrm.com'
   gem.email = ['daniel.oconnor@gmail.com']
-  gem.files = Dir["{app,config,db,lib,vendor,public,bin,log/script}/**/*", "MIT-LICENSE", "Rakefile", "README.md", "config.ru", "CHANGELOG.md", "CONTRIBUTING.md"]
+  gem.files = Dir['{app,config,db,lib,vendor,public,bin,log/script}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md',
+                  'config.ru', 'CHANGELOG.md', 'CONTRIBUTING.md']
   gem.version = ''
   gem.required_ruby_version = '>= 3.1'
   gem.license = 'MIT'
