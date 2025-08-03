@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 require 'ffcrm_endpoint'
+require 'ffcrm_endpoint/endpoint'
 
 class ReadAiMeetingEndpoint < FfcrmEndpoint::Endpoint
 
