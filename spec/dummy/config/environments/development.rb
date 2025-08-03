@@ -73,4 +73,18 @@ Rails.application.configure do
 
   # Raise error when a before_action's only/except options reference missing actions
   config.action_controller.raise_on_missing_callback_actions = true
+
+  if ENV.fetch('CODESPACE_NAME', nil)
+    config.host = "#{ENV.fetch('CODESPACE_NAME', nil)}-3000.app.github.dev:443"
+    config.hosts << ".preview.app.github.dev"
+    config.hosts << ".app.github.dev"
+
+    config.force_ssl = true
+    config.action_dispatch.cookies_same_site_protection = :lax
+
+    config.action_dispatch.trusted_proxies = [
+      # Trust all IPs (safe in dev only)
+      IPAddr.new("0.0.0.0/0"), IPAddr.new("::/0")
+    ]
+  end
 end

@@ -66,4 +66,10 @@ group :test do
   gem "selenium-webdriver"
 end
 
+gem 'csv'
+gem 'sassc'
 gem 'fat_free_crm', '~> 0.24.0'
+gem 'bootstrap', '~> 5.0.0'
+gem 'coffee-rails'
+gem 'ffcrm_endpoint', git: 'https://github.com/fatfreecrm/ffcrm_endpoint.git', tag: 'v0.24.3'
+gem 'ffcrm_webhook_read_ai', path: "../../"
